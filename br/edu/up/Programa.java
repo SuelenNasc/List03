@@ -1,6 +1,33 @@
 package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.exercicios.Ex01;
+import br.edu.up.exercicios.Ex02;
+import br.edu.up.exercicios.Ex03;
+import br.edu.up.exercicios.Ex04;
+import br.edu.up.exercicios.Ex05;
+import br.edu.up.exercicios.Ex06;
+import br.edu.up.exercicios.Ex07;
+import br.edu.up.exercicios.Ex08;
+import br.edu.up.exercicios.Ex09;
+import br.edu.up.exercicios.Ex10;
+import br.edu.up.exercicios.Ex11;
+import br.edu.up.exercicios.Ex12;
+import br.edu.up.exercicios.Ex13;
+import br.edu.up.exercicios.Ex14;
+import br.edu.up.exercicios.Ex15;
+import br.edu.up.exercicios.Ex16;
+import br.edu.up.exercicios.Ex17;
+import br.edu.up.exercicios.Ex18;
+import br.edu.up.exercicios.Ex19;
+import br.edu.up.exercicios.Ex20;
+import br.edu.up.exercicios.Ex21;
+import br.edu.up.exercicios.Ex22;
+import br.edu.up.exercicios.Ex23;
+import br.edu.up.exercicios.Ex24;
+import br.edu.up.exercicios.Ex25;
+import br.edu.up.exercicios.Ex26;
+
 public class Programa {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -83,6 +110,9 @@ public class Programa {
             break;
         case 25:
             Ex25.executar();
+            break;
+        case 26:
+            Ex26.executar();
             break;
                 default:    
             System.out.println("Exercicio não encontrado.");
